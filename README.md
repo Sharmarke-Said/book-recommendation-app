@@ -27,16 +27,16 @@ Built with **React Native** for the frontend and **Node.js + MongoDB** for the b
 
 ---
 
-## ⚡ Getting Started
 
-### 1️⃣ Backend
+
+### ⚡ Getting Started
 ```bash
+1️⃣ Backend
 cd backend
 pnpm install
 pnpm run start
 
-### 2️⃣ Frontend
-```bash
+2️⃣ Frontend
 cd mobile
 npm install
 npx expo 
