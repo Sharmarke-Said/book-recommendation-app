@@ -35,8 +35,10 @@ cd backend
 pnpm install
 pnpm run start
 
-2️⃣ Frontend
-cd frontend
+### 2️⃣ Frontend
+```bash
+cd mobile
 npm install
 npx expo 
+
 
