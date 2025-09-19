@@ -1,4 +1,4 @@
-# 📚 BookHub – Simple Book Store App
+# 📚 BookHub – Simple Book Recommendation App
 
 A mobile app where users can share and discover book recommendations.  
 Built with **React Native** for the frontend and **Node.js + MongoDB** for the backend.
