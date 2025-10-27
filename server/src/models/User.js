@@ -17,10 +17,12 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
       minlength: 6,
+      select: false,
     },
     profileImage: {
       type: String,
-      default: "",
+      default:
+        "https://res.cloudinary.com/dkokjfyui/image/upload/v1761550098/default_scbi5e.jpg",
     },
   },
   { timestamps: true }

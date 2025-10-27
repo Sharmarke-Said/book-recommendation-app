@@ -6,39 +6,55 @@ Built with **React Native** for the frontend and **Node.js + MongoDB** for the b
 ---
 
 ## 🚀 Features
-- 🔑 **Authentication** – Sign up, log in, and stay logged in securely  
-- 📖 **Book Recommendations** – Add your favorite books with details & images  
-- 👤 **Profile Management** – View your profile, manage your books, delete your recommendations  
+
+- 🔑 **Authentication** – Sign up, log in, and stay logged in securely
+- 📖 **Book Recommendations** – Add your favorite books with details & images
+- 🔍 **Search & Sort** – Search books by title and sort by newest, oldest, or rating
+- 👤 **Profile Management** – View your profile, manage your books, update username/email, upload profile photos, change password, and delete your recommendations
 
 ---
 
 ## 🛠️ Tech Stack
+
 **Frontend (Mobile App):**
+
 - React Native (Expo)
 - Zustand (state management)
 
 **Backend (API):**
+
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
 
 ---
 
-
 ---
 
-
-
 ### ⚡ Getting Started
+
+#### 1️⃣ Backend Setup
+
 ```bash
-1️⃣ Backend
-cd backend
+cd server
 pnpm install
 pnpm run start
+```
 
-2️⃣ Frontend
+#### 2️⃣ Frontend Setup
+
+```bash
 cd mobile
-npm install
-npx expo 
+pnpm install
+npx expo start
+```
 
+#### Quick Start (Run Both)
 
+```bash
+# Terminal 1 - Backend
+cd server && pnpm install && pnpm run start
+
+# Terminal 2 - Frontend
+cd mobile && pnpm install && npx expo start
+```
